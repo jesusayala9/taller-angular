@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'taller-angular';
+
+  capitalizar():void {
+    this.title = this.title.charAt(0).toUpperCase()+
+    this.title.slice(1).toLowerCase();
+    }
+
 }

@@ -1,0 +1,21 @@
+<form class="row">
+  <input
+    type="text"
+    name="nombre"
+    [(ngModel)]="heroe.nombre"
+    class="form-control mb-2"
+    placeholder="nombre"
+  />
+  <input
+    type="number"
+    name="poder"
+    [(ngModel)]="heroe.poder"
+    class="form-control mb-2"
+    placeholder="poder"
+  />
+  <input type="submit" class="btn btn-primary" (click)="hazClick()" value="Agregar" />
+  <hr>
+  <button type="button" class="btn btn-primary" (click)="myService">Probar Servicio http</button>
+</form>
+
+

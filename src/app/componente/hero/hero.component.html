@@ -1,0 +1,6 @@
+<div *ngIf="activado">Soy un div activo</div>
+<div *ngIf="desactivado">Soy un div inactivo</div>
+
+<div *ngFor="let heroe of heroes">{{heroe}}</div>
+
+<div *ngFor="let heroe of heroes_list">{{heroe.name}} - {{ heroe.power }}</div>
